@@ -2,7 +2,7 @@ name: Publish to npm
 
 on:
   workflow_run:
-    workflows: ["Tests"]
+    workflows: ["Tests"]  # Update this to match the new workflow name
     types:
       - completed
 
