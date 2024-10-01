@@ -1,0 +1,6 @@
+Dear contributor,
+Please ensure that the bug you fixed passes the tests at tests/ directory.
+
+If you added a new function, please ensure that you have added the appropiate tests to the tests/test.js file, and that you verified the module is able to function perfectly.
+
+Thanks for your support in this project.

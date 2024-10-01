@@ -1,0 +1,12 @@
+logs
+*.log
+npm-debug.log*
+node_modules/
+package-lock.json
+coverage/
+*.test.js
+*.spec.js
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
