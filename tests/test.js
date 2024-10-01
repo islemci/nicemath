@@ -18,7 +18,9 @@ const {
     isFloat, 
     isWhole, 
     isDecimal, 
-    isDivisible 
+    isDivisible,
+    isPerfectSquare,
+    isFibonacci,
 } = require('../dist/index');
 
 test('Testing add', () => {
@@ -110,4 +112,14 @@ test('Testing isDecimal', () => {
 test('Testing isDivisible', () => {
     expect(isDivisible(6, 2)).toBe(true);
     expect(isDivisible(5, 2)).toBe(false);
+});
+
+test('Testing isPerfectSquare', () => {
+    expect(isPerfectSquare(9)).toBe(true);
+    expect(isPerfectSquare(10)).toBe(false);
+});
+
+test('Testing isFibonacci', () => {
+    expect(isFibonacci(5)).toBe(true);
+    expect(isFibonacci(10)).toBe(false);
 });
