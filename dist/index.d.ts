@@ -18,3 +18,5 @@ export declare function isFloat(x: number): boolean;
 export declare function isWhole(x: number): boolean;
 export declare function isDecimal(x: number): boolean;
 export declare function isDivisible(x: number, y: number): boolean;
+export declare function isPerfectSquare(x: number): boolean;
+export declare function isFibonacci(x: number): boolean;

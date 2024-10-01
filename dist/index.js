@@ -20,6 +20,8 @@ exports.isFloat = isFloat;
 exports.isWhole = isWhole;
 exports.isDecimal = isDecimal;
 exports.isDivisible = isDivisible;
+exports.isPerfectSquare = isPerfectSquare;
+exports.isFibonacci = isFibonacci;
 function add(x, y) {
     return x + y;
 }
@@ -97,4 +99,10 @@ function isDecimal(x) {
 }
 function isDivisible(x, y) {
     return x % y === 0;
+}
+function isPerfectSquare(x) {
+    return Math.sqrt(x) % 1 === 0;
+}
+function isFibonacci(x) {
+    return isPerfectSquare(5 * x * x + 4) || isPerfectSquare(5 * x * x - 4);
 }
