@@ -12,7 +12,7 @@ npm install nicemath
 ## Usage
 
 ```typescript
-import { add, subtract, multiply, divide, power, sqrt, factorial, abs, combination, isPrime, isEven, isOdd, isPositive, isNegative, isZero, isInteger, isFloat, isWhole, isDecimal, isDivisible } from 'nicemath';
+import { add, subtract, multiply, divide, power, sqrt, factorial, abs, combination, isPrime, isEven, isOdd, isPositive, isNegative, isZero, isInteger, isFloat, isWhole, isDecimal, isDivisible, isPerfectSquare, isFibonacci } from 'nicemath';
 
 // Examples
 console.log(add(2, 3)); // 5
@@ -25,16 +25,7 @@ console.log(factorial(5)); // 120
 console.log(abs(-5)); // 5
 console.log(combination(5, 2)); // 10
 console.log(isPrime(7)); // true
-console.log(isEven(4)); // true
-console.log(isOdd(3)); // true
-console.log(isPositive(5)); // true
-console.log(isNegative(-3)); // true
-console.log(isZero(0)); // true
-console.log(isInteger(4)); // true
-console.log(isFloat(4.5)); // true
-console.log(isWhole(4)); // true
-console.log(isDecimal(4.5)); // true
-console.log(isDivisible(10, 2)); // true
+// and more...
 ````
 
 ## Contributing
