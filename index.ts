@@ -95,3 +95,11 @@ export function isDecimal(x: number): boolean {
 export function isDivisible(x: number, y: number): boolean {
     return x % y === 0;
 }
+
+export function isPerfectSquare(x: number): boolean {
+    return Math.sqrt(x) % 1 === 0;
+}
+
+export function isFibonacci(x: number): boolean {
+    return isPerfectSquare(5 * x * x + 4) || isPerfectSquare(5 * x * x - 4);
+}
