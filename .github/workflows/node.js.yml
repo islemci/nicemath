@@ -1,4 +1,4 @@
-name: Function tests with Jest
+name: Tests
 
 on:
   push:
@@ -21,7 +21,7 @@ jobs:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
         
-    - name: Install package.json dependencies with pnpm
+    - name: Install package.json dependencies with npm
       run: npm install
 
     - name: Test with Jest
