@@ -1,4 +1,5 @@
 # nicemath
+[![Tests](https://github.com/islemci/nicemath/actions/workflows/node.js.yml/badge.svg)](https://github.com/islemci/nicemath/actions/workflows/node.js.yml)
 
 A simple math library for your daily math problems
 
