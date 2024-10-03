@@ -1,10 +1,13 @@
 name: Publish to npm
 
 on:
+
   workflow_run:
     workflows: ["Tests"]  # Update this to match the new workflow name
     types:
       - completed
+  push:
+    branches: [ "main" ]
 
 jobs:
   publish:
