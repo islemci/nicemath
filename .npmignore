@@ -4,6 +4,7 @@ npm-debug.log*
 node_modules/
 package-lock.json
 coverage/
+tests/
 *.test.js
 *.spec.js
 .DS_Store
@@ -11,3 +12,4 @@ Thumbs.db
 .vscode/
 .idea/
 .github/
+CONTRIBUTING
